@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <privilege>
+        <api>
+            <allowed note="哪些API无需token和uid验证">
+                <url note="登陆">/login</url>
+                <url note="手机号码是否存在">/isMobile</url>
+                <url note="验证码图片">/authImage</url>
+                <url note="邮箱注册">/registerByEmail</url>
+                <url note="手机号码注册">/registerByPhone</url>
+                <url note="搜索">/search</url>
+                <url note="获取推荐">/getRecommend</url>
+                <url note="获取最新">/getNewest</url>
+                <url note="首页轮播图">/getHomeBanner</url>
+                <url note="发现页轮播图">/getFindBanner</url>
+                <url note="手机号码重置密码">/resetPhonePassword</url>
+                <url note="邮箱重置密码">/reseEmailtPassword</url>
+            </allowed>
+        </api>
+    </privilege>
+</root>
