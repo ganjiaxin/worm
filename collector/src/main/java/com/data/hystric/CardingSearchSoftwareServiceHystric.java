@@ -11,7 +11,7 @@ public class CardingSearchSoftwareServiceHystric implements CardingSearchSoftwar
 
 
     @Override
-    public Integer CardingSearchSoftware(String term, String array) {
+    public Integer cardingSearchSoftware(String term, String array) {
         return null;
     }
 }

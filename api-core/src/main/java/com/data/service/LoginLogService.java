@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * create at:  2018/12/19  7:46 PM
  * @description:
  */
-@Service("loginLogService")
+@Service
 public class LoginLogService {
     @Autowired
     LoginLogMapper loginLogMapper;

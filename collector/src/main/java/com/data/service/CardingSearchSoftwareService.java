@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface CardingSearchSoftwareService {
 
     /**
-     * 采集数据入库
+     * 采集数据梳理
      *
      * @param term
      * @param array
      * @return
      */
     @RequestMapping(value = "/CardingSearchSoftware", method = RequestMethod.POST)
-    public Integer CardingSearchSoftware(@RequestParam(value = "term", required = true) String term,
+    Integer cardingSearchSoftware(@RequestParam(value = "term", required = true) String term,
                                          @RequestParam(value = "array", required = true) String array);
 
 }

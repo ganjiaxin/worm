@@ -19,7 +19,7 @@ import java.util.List;
  * @description:
  */
 
-@Service("userService")
+@Service
 public class UserService {
 
     @Autowired

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="api-core" />
+        <module name="clean" />
+        <module name="collector" />
+        <module name="common" />
+        <module name="core" />
+        <module name="eurekaserver" />
+        <module name="schedule" />
+        <module name="worm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="api-core" target="1.8" />
+      <module name="clean" target="1.8" />
+      <module name="collector" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="schedule" target="1.8" />
+      <module name="worm" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

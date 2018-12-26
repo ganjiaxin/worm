@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
  * create at:  2018/12/19  8:11 PM
  * @description:
  */
-@Service("invitetionUserService")
+@Service
 public class InvitetionUserService {
     @Autowired
     InvitetionUserMapper invitetionUserMapper;

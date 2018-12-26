@@ -15,7 +15,7 @@ import java.util.List;
  * create at:  2018/12/13  12:36 PM
  * @description:
  */
-@Service("bannerService")
+@Service
 public class BannerService {
     @Autowired
     BannerMapper bannerMapper;

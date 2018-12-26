@@ -37,7 +37,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -121,7 +121,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.gjx.api.ApiApplication</mainClass> <!--主类 包含main-->
+                    <mainClass>com.data.ApiApplication</mainClass> <!--主类 包含main-->
                     <layout>JAR</layout>
                 </configuration>
             </plugin>

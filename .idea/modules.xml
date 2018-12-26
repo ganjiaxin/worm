@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-core/api-core.iml" filepath="$PROJECT_DIR$/api-core/api-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clean/clean.iml" filepath="$PROJECT_DIR$/clean/clean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collector/collector.iml" filepath="$PROJECT_DIR$/collector/collector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schedule/schedule.iml" filepath="$PROJECT_DIR$/schedule/schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worm.iml" filepath="$PROJECT_DIR$/worm.iml" />
+    </modules>
+  </component>
+</project>
