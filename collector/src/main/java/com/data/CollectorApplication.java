@@ -7,14 +7,15 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @ComponentScan("com.data.*")
 @Configuration
-@EnableTransactionManagement
 @EnableEurekaClient
 @EnableFeignClients
+@EnableAsync  //启动异步
 @SpringBootApplication
 public class CollectorApplication {
     public static void main(String[] args) {

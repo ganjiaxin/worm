@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @ComponentScan("com.data.*")
 @Configuration
-@EnableTransactionManagement
+@EnableTransactionManagement //开启事务
 @EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication

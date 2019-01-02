@@ -6,8 +6,10 @@ import com.data.entity.KeyWord;
 import com.data.entity.Track;
 import com.data.mapper.TrackMapper;
 import com.data.utils.DateUtils;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -19,34 +21,37 @@ import java.util.List;
  * @description:
  */
 
-@Service
+@Service("trackService")
 public class TrackService {
     @Autowired
     TrackMapper trackMapper;
 
     /**
+     * 更新应用
+     *
      * @return
      */
-    public Integer replaceTrack(JSONArray jsonArray) {
+    @Transactional
+    public void replaceTrack(JSONArray jsonArray) {
         Date addTime = DateUtils.getNow();
         List<Track> list = new ArrayList<Track>();
         for (int i = 0; i < jsonArray.size(); i++) {
             JSONObject jsonObject = (JSONObject) jsonArray.get(i);
-            Integer position = i + 1;
-            Track track = new Track();
-            track.setTrackId(jsonObject.getInteger("trackId"));
-            track.setName(jsonObject.getString("trackName"));
-            track.setContentRating(jsonObject.getString("trackContentRating"));
-            track.setViewUrl(jsonObject.getString("trackViewUrl"));
-            track.setCensoredName(jsonObject.getString("trackCensoredName"));
-            track.setArtistId(jsonObject.getInteger("trackId"));
-            track.setPrimaryGenreName(jsonObject.getString("primaryGenreId"));
-            track.setPrimaryGenreName(jsonObject.getString("primaryGenreName"));
-            track.setKind(jsonObject.getString("kind"));
-            track.setAddTime(addTime);
-            list.add(track);
+            Integer n = trackMapper.selectTrack(jsonObject.getInteger("trackId"), jsonObject.getString("trackViewUrl"));
+            if (n > 0) {
+                trackMapper.updateTrack(jsonObject.getInteger("trackId"), jsonObject.getString("trackName"),
+                        jsonObject.getString("trackContentRating"), jsonObject.getString("trackViewUrl"),
+                        jsonObject.getString("trackCensoredName"), jsonObject.getInteger("artistId"),
+                        jsonObject.getString("primaryGenreName"), jsonObject.getInteger("primaryGenreId"),
+                        jsonObject.getString("kind"), addTime);
+            } else {
+                trackMapper.insertTrack(jsonObject.getInteger("trackId"), jsonObject.getString("trackName"),
+                        jsonObject.getString("trackContentRating"), jsonObject.getString("trackViewUrl"),
+                        jsonObject.getString("trackCensoredName"), jsonObject.getInteger("artistId"),
+                        jsonObject.getString("primaryGenreName"), jsonObject.getInteger("primaryGenreId"),
+                        jsonObject.getString("kind"), addTime);
+            }
         }
-        Integer i = trackMapper.batchreplaceTrack(list);
-        return i;
+
     }
 }

@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d84ade-4a73-49fd-8a46-143f395dfa66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/entity/UserKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/mapper/UserKeyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserKeyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/hystric/SearchSoftwareServiceHystric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-core/src/main/java/com/data/controller/MyKeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/controller/MyKeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/BannerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/BannerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/InvitetionUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/InvitetionUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/LoginLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/LoginLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/data/controller/Search/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/data/controller/Search/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/data/controller/User/MyKeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/data/controller/User/MyKeyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchKeyLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/entity/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/ArtistMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/service/ArtistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/config/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchKeyLibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchKeyLibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/task/SearchSoftwareTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/data/utils/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/CleanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/CleanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/batch/BaseBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/batch/BaseBatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchSoftware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/entity/KeyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/entity/KeyLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/entity/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyLibraryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyLibraryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyWordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyWordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/TrackMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/TrackMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyLibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyLibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyWordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyWordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean/src/main/java/com/data/service/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clean/src/main/java/com/data/service/TrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/src/main/java/com/data/CollectorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/CollectorApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collector/src/main/java/com/data/hystric/CardingSearchSoftwareServiceHystric.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/hystric/CardingSearchSoftwareServiceHystric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collector/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/collector/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -38,135 +50,49 @@
     <session id="124741084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="50" />
-          <entry key="properties" value="4" />
+          <entry key="class" value="13" />
+          <entry key="java" value="186" />
+          <entry key="properties" value="10" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="50" />
-          <entry key="Properties" value="4" />
+          <entry key="CLASS" value="13" />
+          <entry key="JAVA" value="186" />
+          <entry key="Properties" value="10" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="976" />
+          <entry key="java" value="4283" />
+          <entry key="properties" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="976" />
+          <entry key="JAVA" value="4283" />
+          <entry key="Properties" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-              <folding>
-                <element signature="e#851#862#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/hystric/CardingSearchSoftwareServiceHystric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/utils/MapUrlParamsUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collector/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/hystric/SearchSoftwareServiceHystric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding>
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/controller/MyKeyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/controller/Home/BannerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/controller/LoginLogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,10 +119,34 @@
         <option value="$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserKeyService.java" />
         <option value="$PROJECT_DIR$/api-core/src/main/java/com/data/controller/MyKeyController.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/data/controller/Search/IndexController.java" />
-        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java" />
-        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java" />
         <option value="$PROJECT_DIR$/collector/src/main/java/com/data/hystric/CardingSearchSoftwareServiceHystric.java" />
         <option value="$PROJECT_DIR$/collector/src/main/java/com/data/hystric/SearchSoftwareService.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchKey.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/data/utils/XmlUtil.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/entity/Artist.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/CleanApplication.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchKeyLibraryService.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchKeyLibraryController.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/entity/Track.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/entity/KeyLibrary.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/batch/BaseBatch.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyLibraryMapper.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyLibraryService.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchKeyLibrary.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyWordService.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchSoftware.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/TrackMapper.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/service/TrackService.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/service/ArtistService.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyWordMapper.java" />
+        <option value="$PROJECT_DIR$/clean/src/main/java/com/data/mapper/ArtistMapper.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/CollectorApplication.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/config/AsyncConfig.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/task/DoTaskClass.java" />
+        <option value="$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java" />
       </list>
     </option>
   </component>
@@ -671,7 +621,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -722,7 +671,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
@@ -733,7 +682,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchSoftwareController" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
@@ -743,7 +691,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="hystric" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
@@ -751,32 +699,30 @@
               <item name="collector" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
               <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
               <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
               <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
               <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -784,77 +730,29 @@
             <path>
               <item name="worm" type="b2602c69:ProjectViewProjectNode" />
               <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="worm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="worm" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545810415495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545906068769" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -875,7 +773,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="Spring Boot.CollectorApplication">
+    <configuration name="SearchKeyLibraryController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.data.controller.SearchKeyLibraryController" />
+      <module name="collector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.data.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.data.utils.XmlUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.data.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.data.ApiApplication" />
@@ -941,7 +865,15 @@
       <item itemvalue="Spring Boot.CoreApplication" />
       <item itemvalue="Spring Boot.EurekaserverApplication" />
       <item itemvalue="Spring Boot.ScheduleApplication" />
+      <item itemvalue="Application.SearchKeyLibraryController" />
+      <item itemvalue="Application.XmlUtil" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SearchKeyLibraryController" />
+        <item itemvalue="Application.XmlUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -956,18 +888,19 @@
       <workItem from="1545635298776" duration="27000" />
       <workItem from="1545636800659" duration="388000" />
       <workItem from="1545707361393" duration="238000" />
-      <workItem from="1545809544569" duration="859000" />
+      <workItem from="1545809544569" duration="8959000" />
+      <workItem from="1545875450340" duration="8000" />
+      <workItem from="1545890265932" duration="14552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1512000" />
+    <option name="totallyTimeSpent" value="24172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25822604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -977,17 +910,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46394557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25986394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3265306" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32833788" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1006,152 +940,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/service/BannerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/message.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/utils/SSLClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/ApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedule/src/main/java/com/data/task/SoftwareTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schedule/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/resources/privilege.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchSoftware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/controller/User/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/mapper/BannerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/service/BannerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/service/InvitetionUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/service/LoginLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/entity/UserKey.java" />
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/mapper/UserKeyMapper.java" />
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/controller/User/MyKeyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/maven_new_repository/com/alibaba/rocketmq/rocketmq-client/3.6.2.Final/rocketmq-client-3.6.2.Final.jar!/com/alibaba/rocketmq/shade/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="369" column="25" selection-start-line="369" selection-start-column="25" selection-end-line="369" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-core/src/main/java/com/data/service/UserKeyService.java" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/data/controller/Home/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1195,13 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/data/controller/SearchSoftwareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/utils/HttpClientUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1216,34 +1010,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java">
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/hystric/SearchSoftwareServiceHystric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collector/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/data/controller/SearchSoftwareController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="e#851#862#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="365">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1254,14 +1031,314 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/hystric/SearchSoftwareServiceHystric.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/json/JsonValueProcessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven_new_repository/com/alibaba/rocketmq/rocketmq-client/3.6.2.Final/rocketmq-client-3.6.2.Final.jar!/com/alibaba/rocketmq/shade/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven_new_repository/com/alibaba/rocketmq/rocketmq-client/3.6.2.Final/rocketmq-client-3.6.2.Final.jar!/com/alibaba/rocketmq/shade/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven_new_repository/com/alibaba/fastjson/1.2.46/fastjson-1.2.46.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="152" column="17" lean-forward="true" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/json/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3266">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/utils/XmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/entity/KeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/entity/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchKeyLibraryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/entity/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="175" column="41" selection-start-line="175" selection-start-column="41" selection-end-line="175" selection-end-column="41" />
+          <folding>
+            <element signature="e#3665#3666#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/entity/KeyLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+          <folding>
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/batch/BaseBatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/data/CoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/CleanApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/data/CommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/mapper/TrackMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="46" column="110" selection-start-line="46" selection-start-column="110" selection-end-line="46" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/service/TrackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchSoftware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyLibraryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/com/data/EurekaserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/service/KeyWordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyWordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/mapper/KeyLibraryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/controller/CardingSearchKeyLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/service/ArtistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven_new_repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/task/SearchSoftwareTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchSoftwareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#892#903#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean/src/main/java/com/data/mapper/ArtistMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/config/AsyncConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/controller/SearchKeyLibraryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/SearchSoftwareService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/service/CardingSearchSoftwareService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collector/src/main/java/com/data/CollectorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

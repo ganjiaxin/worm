@@ -16,9 +16,11 @@ public class KeyLibrary {
     @Column(name = "key_name")
     private String keyName;
     @Column(name = "fiery")
-    private String fiery;
+    private Integer fiery;
     @Column(name = "add_time")
     private Date addTime;
+    @Column(name = "update_time")
+    private Date updateTime;
 
     /**
      * Gets the value of id.
@@ -64,11 +66,24 @@ public class KeyLibrary {
      *
      * @return the value of fiery
      */
-    public String getFiery() {
+    public Integer getFiery() {
         return fiery;
     }
 
-    public void setFiery(String fiery) {
+    public void setFiery(Integer fiery) {
         this.fiery = fiery;
+    }
+
+    /**
+     * Gets the value of updateTime.
+     *
+     * @return the value of updateTime
+     */
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
     }
 }

@@ -26,7 +26,7 @@ public class Track {
     @Column(name = "artist_id")
     private Integer artistId;
     @Column(name = "primary_genre_id")
-    private String primaryGenreId;
+    private Integer primaryGenreId;
     @Column(name = "primary_genre_name")
     private String primaryGenreName;
     @Column(name = "kind")
@@ -169,11 +169,11 @@ public class Track {
      *
      * @return the value of primaryGenreId
      */
-    public String getPrimaryGenreId() {
+    public Integer getPrimaryGenreId() {
         return primaryGenreId;
     }
 
-    public void setPrimaryGenreId(String primaryGenreId) {
+    public void setPrimaryGenreId(Integer primaryGenreId) {
         this.primaryGenreId = primaryGenreId;
     }
 }

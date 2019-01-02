@@ -35,23 +35,4 @@ public class BaseBatch {
         sb.deleteCharAt(sb.length() - 1);
         return sb.toString();
     }
-
-    /*
-     * 批量刷新
-     */
-    public String batchReplace(Map map) {
-        List<Object> list = (List<Object>) map.get("list");
-        Object object = list.get(0);
-        StringBuilder sb = new StringBuilder();
-        sb.append("replace into " + ReflectUtils.getTableName(object.getClass()) + "(" + StringUtils.strip(ReflectUtils.getColumnName(object.getClass()).toString(), "[]") + ")" +
-                " values");
-        for (int i = 0; i < list.size(); i++) {
-            Object o = list.get(i);
-            sb.append("(" + StringUtils.strip(ReflectUtils.getObjectValue(o).toString(), "[]") + "),");
-        }
-        //去掉最后因为逗号
-        sb.deleteCharAt(sb.length() - 1);
-        return sb.toString();
-    }
-
 }
