@@ -64,9 +64,5 @@ public class SearchSoftwareService {
         return num;
     }
 
-    public static void main(String[] args) {
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("123","456");
-        System.out.println(jsonObject.getString("13"));
-    }
+
 }

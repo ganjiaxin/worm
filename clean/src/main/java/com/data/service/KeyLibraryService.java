@@ -10,6 +10,7 @@ import com.data.utils.DateUtils;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -56,6 +57,7 @@ public class KeyLibraryService {
      * @param array
      * @return
      */
+    @Transactional(rollbackFor = Exception.class)
     public void updateKeyLibrary(String array) {
         JSONArray jsonArray = JSON.parseArray(array);
         List<KeyLibrary> list = new ArrayList<KeyLibrary>();

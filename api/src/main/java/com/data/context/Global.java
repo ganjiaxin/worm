@@ -59,7 +59,7 @@ public class Global {
     public static String getIP() {
         Object retObj = Global.IP_THREADLOCAL.get();
         String ip = retObj == null ? "" : retObj.toString();
-        if (ip.equals("0:0:0:0:0:0:0:1")) {
+        if ("0:0:0:0:0:0:0:1".equals(ip)) {
             ip = "127.0.0.1";
         }
         if (StringUtils.isNotBlank(ip)) {

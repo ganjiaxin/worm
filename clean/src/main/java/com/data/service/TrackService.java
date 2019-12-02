@@ -31,7 +31,7 @@ public class TrackService {
      *
      * @return
      */
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void replaceTrack(JSONArray jsonArray) {
         Date addTime = DateUtils.getNow();
         List<Track> list = new ArrayList<Track>();

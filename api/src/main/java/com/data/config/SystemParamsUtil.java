@@ -14,11 +14,10 @@ import java.util.List;
 public class SystemParamsUtil {
     // API权限
     public static List<Object> apiList = new ArrayList<Object>();
-    public static PrivilegeConfig configPrivilege = new PrivilegeConfig();
 
     @SuppressWarnings("unchecked")
     public static List initStartUp() {
-        apiList = configPrivilege.PrivilegeConfig("url");
+        apiList = PrivilegeConfig.PrivilegeConfig("url");
         return apiList;
     }
 }

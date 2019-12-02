@@ -7,6 +7,7 @@ import java.util.Date;
  * create at:  2018/12/20  9:41 PM
  * @description:
  */
+
 public class SearchSoftware {
     private Integer id;
     private String term;

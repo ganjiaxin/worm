@@ -37,7 +37,7 @@ public class BaseModel implements Serializable {
 
     /**** 移动端接口公用参数 ******/
     private String accessToken;
-    private String OS;
+    private String oS;
     private String version;
     private String apiUid;
     private String refreshToken;
@@ -89,17 +89,18 @@ public class BaseModel implements Serializable {
     }
 
     /**
-     * Gets the value of OS.
+     * Gets the value of oS.
      *
-     * @return the value of OS
+     * @return the value of oS
      */
-    public String getOS() {
-        return OS;
+    public String getoS() {
+        return oS;
     }
 
-    public void setOS(String OS) {
-        this.OS = OS;
+    public void setoS(String oS) {
+        this.oS = oS;
     }
+
 
     /**
      * Gets the value of accessToken.

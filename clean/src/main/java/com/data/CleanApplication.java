@@ -15,10 +15,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableFeignClients
 @SpringBootApplication
 public class CleanApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(CleanApplication.class, args);
     }
-
 }
 

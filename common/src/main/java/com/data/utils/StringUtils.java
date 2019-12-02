@@ -1,10 +1,5 @@
 package com.data.utils;
 
-/**
- * @author : ganjiaxin
- * create at:  2018/12/10  12:25 PM
- * @description:
- */
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringEscapeUtils;

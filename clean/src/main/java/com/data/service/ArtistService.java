@@ -8,6 +8,7 @@ import com.data.mapper.ArtistMapper;
 import com.data.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -29,6 +30,7 @@ public class ArtistService {
      * @param array
      * @return
      */
+    @Transactional(rollbackFor = Exception.class)
     public void replaceArtist(JSONArray array) {
         List<Artist> list = new ArrayList<Artist>();
         Date addTime = DateUtils.getNow();

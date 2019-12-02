@@ -33,7 +33,7 @@ public class KeyWordService {
      * @param jsonArray
      * @return
      */
-    @Transactional
+    @Transactional(rollbackFor =Exception.class)
     public void batchInsertKeyWord(Integer keyId, String term, JSONArray jsonArray) {
         Date addTime = DateUtils.getNow();
         List<KeyWord> list = new ArrayList<KeyWord>();

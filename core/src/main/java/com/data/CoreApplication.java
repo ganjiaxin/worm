@@ -15,7 +15,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableFeignClients
 @SpringBootApplication
 public class CoreApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(CoreApplication.class, args);
     }

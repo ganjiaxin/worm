@@ -12,11 +12,10 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author : ganjiaxin
  * create at:  2018/12/19  8:31 PM
- * @description:
+ * @description:短信配置
  */
 @Configuration
 public class SmsProviderConfig {
-
     @Value("${sms.gateway:}")
     private String gateway;
     @Value("${sms.username:}")
